@@ -17,8 +17,6 @@ void Player::AddXP(int amount)
 	else
 		xp += amount;
 
-	while (xp >= xpData[lvl])
-	{
-		lvl = ClampInt(lvl + 1, minLevel, maxLevel);
-	}
+	while (lvl < 30 && xp >= xpData[lvl])
+		++lvl;
 }

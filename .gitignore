@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/RPGGame
+/x64/Debug
+/RPGGame/x64/Debug/RPGGame.tlog
+/RPGGame/x64/Debug
