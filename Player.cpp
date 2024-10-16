@@ -1,4 +1,3 @@
-#include "Main.h"
 #include "Player.h"
 
 Player::Player()
@@ -17,6 +16,6 @@ void Player::AddXP(int amount)
 	else
 		xp += amount;
 
-	while (lvl < 30 && xp >= xpData[lvl])
+	while (lvl < 30 && xp >= GetXPAlgorithm())
 		++lvl;
 }

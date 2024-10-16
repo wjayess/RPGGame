@@ -1,9 +1,9 @@
-#include "Main.h"
 #include "Player.h"
+#include "Dialogue.h"
 
 int main()
 {
 	Player ply;
 
-	AddXPDialogue(ply);
+	DialogueMenu(ply);
 }
